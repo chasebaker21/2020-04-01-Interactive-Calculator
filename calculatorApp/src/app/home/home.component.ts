@@ -49,7 +49,7 @@ export class HomeComponent implements OnInit {
         return secondOp;
     }
   }
-
+  // pulls either the +, =, -, or / and calculates the results using the doCalculation method and applys results to result
   getOperation(op: string) {
     console.log(op);
     if (this.firstOperand === null) {

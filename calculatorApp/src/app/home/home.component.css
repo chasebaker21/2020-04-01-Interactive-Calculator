@@ -40,7 +40,7 @@ input {
     height: 40px;
     font-size: 1.8rem;
     border-radius: 6px;
-    background: black;
+    background: rgb(88,89,91);
 }
 .operator {
     background: rgb(241,90,42);
