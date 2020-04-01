@@ -1,0 +1,34 @@
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    height: 70px;
+    width: 50px;
+    margin: 2px;
+    box-shadow: 2px 2px 5px 0px black;
+    font-size: 1.5rem;
+}
+input {
+    text-align: right;
+    height: 40px;
+    width: 206px;
+    margin: 5px;
+    font-size: 2.5rem;}
+.clear {
+    width: 180px;
+    height: 30px;
+}
+.operator {
+    background-color: yellow;
+}
