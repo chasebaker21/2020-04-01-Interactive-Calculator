@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,25 +10,39 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 3px solid black;
+    padding: 30px;
+    background: rgb(57,57,59);
+    border-radius: 10px;
 }
 
 button {
-    height: 70px;
+    height: 55px;
     width: 50px;
-    margin: 2px;
+    margin: 3px;
     box-shadow: 2px 2px 5px 0px black;
     font-size: 1.5rem;
+    background: rgb(88,89,91);
+    color: white;
+    border-radius: 6px;
 }
 input {
     text-align: right;
     height: 40px;
     width: 206px;
     margin: 5px;
-    font-size: 2.5rem;}
+    font-size: 2.5rem;
+    background: wheat;
+    border-radius: 6px;
+}
 .clear {
-    width: 180px;
-    height: 30px;
+    width: 165px;
+    height: 40px;
+    font-size: 1.8rem;
+    border-radius: 6px;
+    background: black;
 }
 .operator {
-    background-color: yellow;
+    background: rgb(241,90,42);
+    color: black;
 }

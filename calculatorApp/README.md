@@ -1,3 +1,6 @@
+# Note
+I built this calculator for the 2020-04-01 MintBean Hackathon. While doing this I used a tutorial to build the logic of the calculator. Learned a lot about switch statements and input binding!
+
 # CalculatorApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
